@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *,
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    width: 10rem;
+    height: 10rem;
+    background-color: yellowgreen;
+    float: left;
+    position: relative;
+    margin: 0.5rem;
+
+}
+
+h3 {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box:not(:first-child) {
+    margin-left: 1rem;
+}
+
+.red {
+    background-color: orangered;
+    color: green;
+}
+.boxStyleTExt{
+  width: 100%;
+  height: 100%;
+}
+    </style>
+</head>
+<body>
+
+  <div id="box1" class="box box1">
+    <h3 class="boxStyleTExt">Box 1</h3>
+</div>
+<div id="box2" class="box box2">
+    <h3 class="boxStyleTExt">Box 2</h3>
+</div>
+<div id="box3" class="box box3">
+    <h3 class="boxStyleTExt">Box 3</h3>
+</div>
+<div id="box4" class="box box4">
+    <h3 class="boxStyleTExt">Box 4</h3>
+</div>
+
+      <script>
+        const cbox = document.querySelectorAll(".box");
+
+// for (let i = 0; i < cbox.length; i++) {
+//     cbox[i].addEventListener("mouseenter", function() {
+//       cbox[i].classList.toggle("red");
+//     });
+// }
+cbox.forEach( (e) => {
+e.addEventListener('mouseenter', () => {
+  e.style.backgroundColor ="red";
+  e.style.borderRadius ="10px";
+  e.style.border ="3px solid green";
+  const boxStyleTExt = document.querySelectorAll('.boxStyleTExt');
+  boxStyleTExt.forEach( (addst) => {
+    addst.addEventListener('mouseenter', () => {
+      addst.style.fontSize = '40px';
+    });
+  });
+
+});
+});
+      </script>
+</body>
+</html>

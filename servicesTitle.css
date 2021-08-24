@@ -1,0 +1,459 @@
+.servicesTitle {
+	position: relative;
+	width: 100%;
+	height: 289px;
+	background-color: transparent;
+	top: 43%;
+
+}
+.services-title {
+	width: 100%;
+	height: 690px;
+	background-color: #fff;
+	position: relative;
+	margin-top: 90px;
+}
+
+/* *********MAIN BG IMAGE */
+
+.main-bg-img {
+	background-image: url('/images/main.jpg.webp');
+	background-color: #F9FAFF;
+	position: relative;
+	color: black;
+	width: 400px;
+	height: 600px;
+	margin: 0;
+	padding: 0;
+	left: 9%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	top: -50px;
+}
+
+.second-bg-img {
+	background-image: url('/images/second-bgwebp.webp');
+	position: absolute;
+	color: black;
+	width: 290px;
+	height: 290px;
+	margin: 0;
+	padding: 0;
+	right: -10%;
+	bottom: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.experince {
+	width: 110px;
+	height: 135px;
+	background-color: #4986FC;
+	position: absolute;
+	left: -13%;
+	top: 9%;
+	color: white;
+	font-size: 19px;
+	font-weight: 700;
+	text-align: center;
+}
+.servicesD {
+	padding-left: 20px;
+	position: relative;
+	left: 32%;
+	width: 440px;
+	height: 600px;
+	top: 13%;
+	color: #999;
+}
+.servicesD h1{
+	font-size: 30px;
+	font-weight: 600;
+	color: black;
+	padding-bottom: 30px;
+}
+.Expdetail{
+	line-height: 30px;
+}
+.sdp {
+	padding: 20px 65px 0 16px;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/* *************team section *********** */
+
+.team-section{
+	height: 600px;
+}
+
+.team-section-style {
+	height: 450px;
+	/* background-color: white; */
+	padding: 0;
+	width: 22%;
+	margin: 94px auto;
+	/* background-color: white; */
+	/* border-top-left-radius: 10px;
+	border-top-right-radius: 10px; */
+	border-radius: 10px;
+	transition: .3s ease;
+	transform: skew(1);
+}
+
+
+.contact-info {
+	
+	height: 190px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	text-align: center;
+	/* transition: 1s ease-in; */
+}
+/* .contact-info:hover{
+	background-color: white;
+} */
+.team-title {
+	position: relative;
+	left: 16%;
+	top: 29%;
+	word-wrap: break-word;
+	width: 86%;
+}
+
+
+.socialMedia-icon-p  {
+	
+	margin: 5px;
+	/* background-color: white; */
+	color: white;
+
+}
+.socialMedia-icon-p span i {
+	
+	
+	padding: 5px 0px;
+	border-radius: 10px;
+	width: 42px;
+	color: white;
+	background-color: #0D6EfD;
+	text-align: center;
+}
+.profile-img {
+	background-color: white;
+	width: 100%;
+	height: 260px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	
+	/* transform:skew(0); */
+}
+/* .profile-img:hover{
+	background-size: contain; */
+	/* background-size: var(--profile-img-background-size); */
+/* } */
+
+.img-1{
+	background-image: url('/images/persone1.webp');
+}
+.img-2{
+	background-image: url('/images/persone2.webp');
+}
+.img-3{
+	background-image: url('/images/persone3.webp');
+}
+
+
+/* *************team section *********** */
+
+
+/* team section exprence year start  */
+
+	
+
+	/* .project-bg-img {
+		background-image: url('/images/project-bg-img.webp');
+		background-position:fixed;
+		background-repeat: no-repeat;
+		height: 100vh;
+		width: 100%;
+	} */
+	.projectsection {
+		padding: 0 !important;
+		background-image: url('/images/project-bg-img.webp');
+		/* height: 100vh; */
+		background-attachment: fixed;
+		margin: 0 !important;
+		position: relative;
+		z-index: -1;
+		background-position: center center;
+	}
+
+	.overlay{
+		width: 100%;
+		margin: 0%;
+		padding: 0;
+		background-color: #6E74EA;
+		z-index: -1;
+		opacity: .7;
+		height: 300px;
+		background: linear-gradient(45deg, #207ce5 0%, #6f4be8 100%);
+	}
+
+	/* .project-overlay {
+		opacity: 1;
+		color: red;
+		background-color: green;
+		height: 299px;
+		width: 100%;
+		margin: 0;
+		padding: 125px;
+	} */
+	.project-overlay3 {
+		/* background-color: green; */
+		padding: 0px 67px;
+		height: 100px;
+		position: relative;
+		z-index: 11;
+		width: 100%;
+		
+		top: 50%;
+		transform: translate(0,-50%);
+	}
+/* Z-INDEX PROJECT SECTION  */
+	.Zindex{
+		
+		font-weight: 400;
+	}
+
+
+
+
+
+/* team section exprence year start  */
+
+
+/* RECENT PROJECT SECTINO start */
+.mt-6{
+	margin-top: 6rem;
+}
+
+/* .portFolio-tamplet{
+	background-image: url('/images/main.jpg.webp');
+	height: 340px;
+	width: 30%;
+	background-position: center;
+	background-size: cover;
+	margin: 10px;
+	border-radius: 10px;
+	position: relative;
+	padding: 0;
+	opacity: 1;
+} */
+
+#space.col-md-4 {
+	position: relative;
+	/* width: 100%; */
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.portFolio-tamplet {
+	position: relative;
+	height: 340px;
+	overflow: hidden;
+	width: 30%;
+	border-radius: 4px;
+	z-index: 0;
+	
+	margin: 10px 10px 30px 10px;
+	border-radius: 10px;
+	background-position: center;
+	background-size: cover;
+
+}
+.portFolio-tamplet:nth-child(1) {
+	background-image: url('/images/webp1.webp');
+}
+.portFolio-tamplet:nth-child(2) {
+	background-image: url('/images/webp2.webp');
+}
+.portFolio-tamplet:nth-child(3) {
+	background-image: url('/images/webp3.webp');
+}
+.portFolio-tamplet:nth-child(4) {
+	background-image: url('/images/webp4.webp');
+}
+.portFolio-tamplet:nth-child(5) {
+	background-image: url('/images/webp5.webp');
+}
+.portFolio-tamplet:nth-child(6) {
+	background-image: url('/images/webp6.webp');
+}
+
+.port-chR {
+	position: relative;
+	left: 85%;
+	top: 4%;
+	height: 39px;
+	width: 43px;
+	text-align: center;
+	border-radius: 5px;
+	padding: 5px;
+}
+.portFolio-tamplet:hover .port-chR{
+	
+	background-color: white;
+	color: blue !important;
+}
+
+/* .portFolio-tamplet .container {
+	position: relative;
+	bottom: -77%;
+	color: black;
+} */
+.ptobott {
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	bottom: 0%;
+	left: 10%;
+}
+
+
+
+.portFolio-tamplet::after, .portFolio-tamplet::before {
+	z-index: -1;
+	position: absolute;
+	background: #4986fc;
+	width: 100%;
+	height: 50%;
+	content: '';
+	opacity: .7;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	
+}
+
+.portFolio-tamplet::after {
+	left: -100%;
+	bottom: -50%;
+}
+.portFolio-tamplet::before {
+	top: -100%;
+	right: -50%;
+}
+.portFolio-tamplet:hover::after{
+	left: 0%;
+	bottom: 0%;
+	/* z-index: 11; */
+	/* display: block; */
+}
+.portFolio-tamplet:hover::before{
+right: 0%;
+top: 0%;
+	/* z-index: 11; */
+	/* display: block; */
+}
+
+
+
+/* .overlay-in {
+	transition: 1s ease-in;
+	background-color: red;
+	top: 0%;
+right: -100%;
+	
+	height: 0;
+
+} */
+
+
+/* 
+.overlay-out {
+	background-color: green;
+	bottom: 0;
+	
+} */
+
+/* hover section portFolio-tamplet */
+
+/* .portFolio-tamplet:hover  {
+	display: block;
+	height: 50%;
+	right: 0%;
+} */
+/* RECENT PROJECT SECTINO end */
+
+
+
+
+
+
+
+/* Question section start */
+
+.q-section{
+	background-color: #fff;
+	width: 100%;
+	height: 10in;
+	margin-top: 150px;
+	padding: 0%;
+
+}
+
+
+.q-section-img{
+	background-image: url('/images/questionsectio.webp');
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 350px;
+	margin-top: 100px;
+}
+
+.q-section-detail{
+	background-color: #fff;
+	border: 1px solid #FFF;
+	border-radius: 4px;
+	padding: 20px;
+	margin-bottom: 10px;
+	box-shadow: 0px 2px 25px -15px rgba(0,0,0, 0.26) ;
+	/* box-shadow: 0px 2px 25px -16px rgba(0, 0, 0, 0.26); */
+	height: 150px;
+}
+.q-section-detail h3 {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.q-s-r{
+	padding-left: 50px;
+}
+.subheading {
+	position: relative;
+	top: 33%;
+}
+.question {
+	position: relative;
+	top: 40%;
+}
+
+.questions {
+	box-shadow: 0px 2px 3px 2px beige;
+}
+.collapsUP {
+	position: absolute;
+	right: 7%;
+}
+/* question section end  */
